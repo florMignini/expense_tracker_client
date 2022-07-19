@@ -1,0 +1,26 @@
+{
+   "error": false,
+   "error_message": null,
+   "response": {
+     "operation": [
+      " ",
+       "income",
+       "expense"
+    ],
+    "income": [
+         "salary",
+         "investment",
+         "loans"
+    ],
+    "expense": [
+         "grocery",
+         "health",
+         "fun",
+         "fitness",
+         "taxes",
+         "travel"
+    ]
+   }
+
+}
+ 
