@@ -8,7 +8,7 @@ module.exports = (env, argv) => {
     entry: "./src/index.js",
     output: {
       filename: isProduction ? "[name].[contenthash].js" : "main.js",
-      path: path.resolve(__dirname, "build"),
+      path: path.resolve(__dirname, "dist"),
     },
     plugins: [new HtmlWebpackPlugin({ template: "src/index.html" })],
     module: {
